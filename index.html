@@ -46,15 +46,15 @@
         <div id="projects">
             <h2 class="topics" style="vertical-align: middle;">Projects</h2> 
             <p class="paras">These are some of my notable projects. Kindly click on the icons to dive into them, have fun!</p><br>
-                <h2 class="apps">EDA Tool</h2>
+                <h2 id="EDA" class="apps">EDA Tool</h2>
                 <a href="https://github.com/codeup729/EDA_Tool" target="_blank">
                     <img id="Tata" src="https://img.etimg.com/thumb/msid-72119901,width-300,imgsize-164620,,resizemode-4,quality-100/tata-steel-agencies.jpg" alt="Tata img" width="300" height="200">
                 </a><br>
-                <h2 class="apps">Movie Recommendation System</h2>
+                <h2 id="RS" class="apps">Movie Recommendation System</h2>
                 <a href="https://github.com/codeup729/MovieRecommendation-Critique-System" target="_blank">
                     <img id="Movie" src="https://miro.medium.com/max/1400/1*N0-ikjPv4RUVvS-6KCgLPg.jpeg" alt="Movie" width="300" height="200">
                 </a><br>
-                <h2 class="apps">Secure Voice Auth Using NLP</h2>
+                <h2 id="Auth" class="apps">Secure Voice Auth Using NLP</h2>
                 <a href="https://github.com/codeup729/2FA_banana_auth" target="_blank">
                     <img id="2FA" src="https://www.telestax.com/wp-content/uploads/2019/08/2FA-Graphic.jpg" alt="2FA Pic" width="300" height="200">
                 </a><br>
@@ -79,9 +79,21 @@
         </div>
     </div>
     <script>
-        var down = document.getElementById("Hi");
+        let down = document.getElementById("Hi");
         down.addEventListener("click", function(err,window){
             document.getElementsByTagName("h1")[1].scrollIntoView();
+        });
+        var app1 = document.getElementsById("Tata");
+        app1.addEventListener("mouseover", function(){
+            document.getElementsById("EDA").style.color = "red";
+        });
+        var app2 = document.getElementsById("Movie");
+        app1.addEventListener("mouseover", function(){
+            document.getElementsById("RS").style.color = "red";
+        });
+        var app3 = document.getElementsById("2FA");
+        app1.addEventListener("mouseover", function(){
+            document.getElementsById("Auth").style.color = "red";
         });
     </script>
 </body>
