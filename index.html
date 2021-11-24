@@ -85,15 +85,24 @@
         });
         var app1 = document.getElementsById("Tata");
         app1.addEventListener("mouseover", function(){
-            document.getElementsById("EDA").style.color = "red";
+            document.getElementById("EDA").style.color = "red";
+        });
+        app1.addEventListener("mouseout", function(){
+            document.getElementById("EDA").style.color = "black";
         });
         var app2 = document.getElementsById("Movie");
-        app1.addEventListener("mouseover", function(){
-            document.getElementsById("RS").style.color = "red";
+        app2.addEventListener("mouseover", function(){
+            document.getElementById("RS").style.color = "red";
+        });
+        app2.addEventListener("mouseout", function(){
+            document.getElementById("RS").style.color = "black";
         });
         var app3 = document.getElementsById("2FA");
-        app1.addEventListener("mouseover", function(){
-            document.getElementsById("Auth").style.color = "red";
+        app3.addEventListener("mouseover", function(){
+            document.getElementById("Auth").style.color = "red";
+        });
+        app3.addEventListener("mouseout", function(){
+            document.getElementById("Auth").style.color = "black";
         });
     </script>
 </body>
