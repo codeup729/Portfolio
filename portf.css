@@ -15,13 +15,13 @@ body {
     height: 100%;
     background:rgba(255,255,255,0.5);
     overflow: scroll;
-    background-color: #FF4D00;
+    background-color: #caebf2;
 }
 
 #landing{
     width: 100%;
     height: 100%;
-    background-color: #FF4D00;
+    background-color: #caebf2;
     text-align: center;
     vertical-align: middle;
     line-height: 700px;
@@ -29,7 +29,7 @@ body {
 #Hi{
    font-family:fantasy;
    font-size: 300%;
-   color: white; 
+   color: rgb(0, 39, 139); 
 }
 #header{
     background-color: aliceblue;
@@ -86,7 +86,7 @@ body {
 .topics{
     font-family: "-apple-system";
     font-size:40px;
-    color: rgb(232, 230, 230);
+    color: black;
 }
 .paras{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -118,6 +118,6 @@ body {
     text-align: center;
 }
 .apps{
-    color: rgb(232, 230, 230);
+    color: BLACK;
 }
 
